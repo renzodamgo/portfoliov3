@@ -1,3 +1,5 @@
+import { GetServerSideProps } from 'next';
+
 type postType = {
 	name: string;
 	title: string;
@@ -17,7 +19,7 @@ const Blog = ({ allPosts }: { allPosts: postType[] }) => {
 
 export default Blog;
 
-export const getStaticProps = async () => {
+export const getStaticProps: GetServerSideProps = async () => {
 	const allPosts = [
 		{
 			name: 'Renzo',
