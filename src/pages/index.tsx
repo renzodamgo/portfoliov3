@@ -28,7 +28,11 @@ const Home: NextPage = () => {
 						</h1>
 						<p className=" animate-appear z-10">
 							Puede visitar la{' '}
-							<a className=" underline" href="#">
+							<a
+								className=" underline"
+								href="https://www.renzodamian.space"
+								target={'blank'}
+							>
 								<span className=" font-semibold">v1</span> aquí
 							</a>
 							.
