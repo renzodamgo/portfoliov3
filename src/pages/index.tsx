@@ -10,7 +10,17 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div className="main">
-				
+				<div className="container">
+					<div className="flex justify-center items-center h-screen w-screen flex-col">
+						<h1 className=" text-6xl">Test</h1>
+						<ul className="text-center flex flex-col gap-2 py-4">
+							<li>Prettier configurado</li>
+							<li>Tailwind Configurado</li>
+							<li>Estrucutra de carpetas finalizada</li>
+							<li>Agregar importacion absoluta</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
