@@ -4,7 +4,7 @@ import { Landing } from 'src/components/landing';
 import { Welcome } from 'src/components/welcome';
 
 const Home: NextPage = () => {
-	const isWelcome = false;
+	const isWelcome = true;
 	return (
 		<div>
 			<Head>
