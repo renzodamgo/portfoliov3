@@ -1,5 +1,9 @@
 {
-	"extends": ["next/core-web-vitals", "prettier"],
+	"extends": [
+		"next/core-web-vitals",
+		"prettier",
+		"prettier-plugin-tailwindcss"
+	],
 	"rules": {
 		"@next/next/no-img-element": "off"
 	}
