@@ -7,6 +7,16 @@ module.exports = {
 		"./src/components/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
+		fontFamily: {
+			'sans': ['Inter', 'ui-sans-serif', 'system-ui'],
+			'serif': ['Lora', 'ui-serif', 'Georgia'],
+		},
+		colors: {
+			gray: "#F5F3EC",
+			black: "#001427",
+			green: "#3E5641",
+			slate: "#7A93AC",
+		},
 		extend: {
 			animation: {
 				wiggle: 'wiggle .4s 1.9s 2 ease-in-out both ',
