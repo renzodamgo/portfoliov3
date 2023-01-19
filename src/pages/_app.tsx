@@ -1,4 +1,5 @@
 import { Inter, Lora } from '@next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 import type { AppProps } from 'next/app';
 import Layout from 'src/components/layout';
 import 'styles/globals.scss';
@@ -22,6 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 			<main className={`${inter.variable} ${lora.variable} font-sans`}>
 				<Component {...pageProps} />
 			</main>
+			<Analytics />
 		</Layout>
 	);
 }
