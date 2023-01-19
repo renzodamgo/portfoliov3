@@ -2,25 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-	background-color: black;
-	padding: 0;
-	margin: 0;
-	font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-weight: 400;
-}
+@layer base {
+	html,
+	body {
+		background-color: #c9c7bc;
+		padding: 0;
+		margin: 0;
+		@apply bg-gray font-sans text-black;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-weight: 400;
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-a {
-	color: inherit;
-	text-decoration: none;
-	cursor: pointer;
+	h1 {
+		@apply text-2xl;
+	}
+	h2 {
+		@apply text-xl;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	a:focus {
+		text-decoration: underline;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+
+	.active {
+		text-decoration: underline;
+	}
+	/* ... */
 }
 
 * {
 	box-sizing: border-box;
+}
+
+.bg-opacity-linear {
+	-webkit-mask-image: linear-gradient(0deg, transparent 20px, red 76px);
+	mask-image: linear-gradient(0deg, transparent 20px, red 76px);
+}
+
+.hyphen {
+	hyphens: auto;
 }
