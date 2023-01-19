@@ -13,7 +13,7 @@ export const Landing = () => {
 			</div>
 			<section>
 				<div className="container mt-10 px-6 md:mx-auto">
-					<div className="grid h-[70vh] gap-8 from-red-800 via-yellow-600 to-yellow-500 ch:overflow-hidden ch:rounded-md ch:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] md:grid-cols-3 md:grid-rows-3 md:ch:px-10 md:ch:py-10">
+					<div className="from-red-800 via-yellow-600 to-yellow-500 grid h-[70vh] gap-8 ch:overflow-hidden ch:rounded-md ch:bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] md:grid-cols-3 md:grid-rows-3 md:ch:px-10 md:ch:py-10">
 						<div className="relative md:col-span-2 md:row-span-2">
 							<div className="relative flex h-full w-[55%] flex-col">
 								<h1 className="flex-none font-light md:text-5xl md:leading-tight">

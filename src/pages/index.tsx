@@ -8,10 +8,9 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Head>
-
-
+				<title>Renzo Damian - Desarrollador Fullstack</title>
 			</Head>
-			<div className="main ">{isWelcome ? <Welcome /> : <Landing />}</div>
+			<div>{isWelcome ? <Welcome /> : <Landing />}</div>
 		</div>
 	);
 };
