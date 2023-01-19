@@ -15,8 +15,8 @@ export const AboutMe = () => {
 					</p>
 					<div className="hyphen text-justify text-sm">
 						<p className="">
-							¹ Esta última oración ha sido generada por ChatGPT por
-							programador introvertido.
+							¹ Esta última oración ha sido generada por ChatGPT por programador
+							introvertido.
 						</p>
 					</div>
 				</div>

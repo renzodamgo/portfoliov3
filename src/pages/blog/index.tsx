@@ -7,7 +7,7 @@ type postType = {
 
 const Blog = ({ allPosts }: { allPosts: postType[] }) => {
 	return (
-		<section id="Acerca de mí">
+		<section id="Renzo Damian Blog">
 			<div className="container mx-auto mt-10 px-10 ">
 				<div className="hyphen grid  gap-5 text-center font-serif">
 					<h1>

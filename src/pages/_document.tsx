@@ -4,21 +4,12 @@ export default function Document() {
 	return (
 		<Html lang="es">
 			<Head>
-				<title>Renzo Damian - Desarrollador Fullstack</title>
 				<meta
 					name="description"
 					content="Mi experiencia laboral se centra en el uso de Java y React
 						para desarrollar aplicaciones web y móviles. Me gusta estar al día
 						con las últimas tendencias en tecnología y siempre estoy buscando
 						nuevos desafíos para seguir creciendo como desarrollador."
-				/>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap"
-					rel="stylesheet"
-				/>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Roboto+Slab:wght@300&display=swap"
-					rel="stylesheet"
 				/>
 
 				<link
