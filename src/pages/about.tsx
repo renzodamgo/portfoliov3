@@ -1,6 +1,11 @@
+import Head from "next/head";
+
 export const AboutMe = () => {
 	return (
 		<section id="Acerca de mí">
+			<Head>
+				<title>Renzo Damian - Desarrollador Fullstack</title>
+			</Head>
 			<div className="container mx-auto mt-10 px-10 ">
 				<div className="hyphen grid  gap-5 text-center font-serif">
 					<h1>Hola, me llamo Renzo</h1>
