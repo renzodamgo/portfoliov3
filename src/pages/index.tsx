@@ -8,8 +8,14 @@ const Home: NextPage = () => {
 	return (
 		<div>
 			<Head>
-				<title></title>
-				<meta name="description" content="Hola soy Renzo damian" />
+				<title>Renzo Damian - Desarrollador Fullstack</title>
+				<meta
+					name="description"
+					content="Mi experiencia laboral se centra en el uso de Java y React
+						para desarrollar aplicaciones web y móviles. Me gusta estar al día
+						con las últimas tendencias en tecnología y siempre estoy buscando
+						nuevos desafíos para seguir creciendo como desarrollador."
+				/>
 
 				<link
 					rel="apple-touch-icon"
