@@ -1,7 +1,6 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
 import clientPromise from 'lib/mongodb';
 
-const findMovies = async (req: NextApiRequest, res: NextApiResponse) => {
+const findMovies = async (): Promise<string> => {
 	try {
 		const client = await clientPromise;
 		const db = client.db('sample_mflix');
@@ -13,9 +12,10 @@ const findMovies = async (req: NextApiRequest, res: NextApiResponse) => {
 			.limit(30)
 			.toArray();
 
-		res.status(200).json(movies);
+		return JSON.stringify(movies);
 	} catch (e) {
 		console.error(e);
+		return '';
 	}
 };
 

@@ -1,6 +1,6 @@
+import clientPromise from 'lib/mongodb';
 import { InferGetServerSidePropsType } from 'next';
 import Head from 'next/head';
-import clientPromise from '../../lib/mongodb';
 
 export async function getServerSideProps() {
 	try {

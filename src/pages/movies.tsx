@@ -1,8 +1,8 @@
+import findMovies from 'lib/movieslib';
 import { GetStaticProps } from 'next';
 import { MovieRes } from 'types/movies';
 
 export default function Movies({ movies }: { movies: MovieRes[] }) {
-	console.log(movies);
 	return (
 		<div>
 			<h1>Top 20 Movies of All Time</h1>
@@ -23,9 +23,8 @@ export default function Movies({ movies }: { movies: MovieRes[] }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-	const res = await fetch('http://localhost:3000/api/movies');
-	const movies: MovieRes[] = await res.json();
-	console.log({ movies });
+	const res = await findMovies();
+	const movies: MovieRes[] = JSON.parse(res);
 
 	return {
 		props: { movies },
