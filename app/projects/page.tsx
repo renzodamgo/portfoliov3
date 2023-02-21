@@ -1,13 +1,9 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
-export const Projects = () => {
+const Projects = () => {
 	return (
-		<div>
-			<Head>
-				<title>Renzo Damian - Fullstack Dev</title>
-			</Head>
-			<div className="container mx-auto mt-10 grid gap-5 px-10 font-serif ch:grid ch:gap-2">
+		<section id="Renzo Damian - Projects">
+			<div className="grid gap-5 font-serif ch:grid ch:gap-2">
 				<div>
 					<Link href="https://www.dnt.pe/" target="_blank">
 						<h1>DNT.pe</h1>
@@ -62,7 +58,7 @@ export const Projects = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
