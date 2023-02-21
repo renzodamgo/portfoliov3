@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const Projects = () => {
+const Projects = () => {
 	return (
 		<section id="Renzo Damian - Projects">
 			<div className="grid gap-5 font-serif ch:grid ch:gap-2">

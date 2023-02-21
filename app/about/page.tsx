@@ -1,4 +1,4 @@
-export const About = () => {
+const About = () => {
 	const { title, description, footnote } = aboutContent['en-US'];
 	return (
 		<section id="About me">

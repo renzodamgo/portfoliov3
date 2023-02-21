@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export const Contact = () => {
+const Contact = () => {
 	return (
 		<section id="Renzo Damian - Contact Info">
 			<div className="grid gap-2 text-center font-serif">
