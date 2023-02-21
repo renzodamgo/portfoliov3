@@ -1,5 +1,5 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
 import clientPromise from 'lib/mongodb';
+import type { NextApiRequest, NextApiResponse } from 'next';
 
 const findMovies = async (req: NextApiRequest, res: NextApiResponse) => {
 	try {
