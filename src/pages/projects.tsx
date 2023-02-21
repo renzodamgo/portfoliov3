@@ -9,11 +9,9 @@ export const Projects = () => {
 			</Head>
 			<div className="container mx-auto mt-10 grid gap-5 px-10 font-serif ch:grid ch:gap-2">
 				<div>
-					<h1>
-						<a href="https://www.dnt.pe/" target="_blank" rel="noreferrer">
-							DNT.pe
-						</a>
-					</h1>
+					<Link href="https://www.dnt.pe/" target="_blank">
+						<h1>DNT.pe</h1>
+					</Link>
 					<p>
 						Landing page for a Marketing Agency showcasing their services with
 						the focus of creativity and movement.
@@ -25,11 +23,9 @@ export const Projects = () => {
 					</div>
 				</div>
 				<div>
-					<h1>
-						<Link href="https://lumiorb.vercel.app/" target="_blank">
-							LumiOrb
-						</Link>
-					</h1>
+					<Link href="https://lumiorb.vercel.app/" target="_blank">
+						<h1>LumiOrb</h1>
+					</Link>
 					<p>
 						I needed good lighting for a video call and saw that the{' '}
 						<Link
