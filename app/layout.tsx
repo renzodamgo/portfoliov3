@@ -22,7 +22,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html>
+		<html lang="en">
 			<head />
 			<body className={`${inter.variable} ${lora.variable} font-sans`}>
 				<Navbar />
