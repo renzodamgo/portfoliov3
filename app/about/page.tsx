@@ -1,25 +1,12 @@
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-
 export const AboutMe = () => {
-	const { locale, locales } = useRouter();
-	const { head, title, description, footnote } =
-		aboutContent[
-			locale != undefined ? (locale as keyof typeof locales) : 'en-US'
-		];
-	// console.log({ locale, locales, defaultLocale, asPath });
+	const { title, description, footnote } = aboutContent['en-US'];
 	return (
-		<section id="Acerca de mí">
-			<Head>
-				<title>{head}</title>
-			</Head>
-			<div className="container mx-auto mt-10 px-10 ">
-				<div className="hyphen grid  gap-5 text-center font-serif">
-					<h1>{title}</h1>
-					<p>{description}</p>
-					<div className="hyphen text-justify text-sm">
-						<p className="">{footnote}</p>
-					</div>
+		<section id="About me">
+			<div className="hyphen grid  gap-5 text-center font-serif">
+				<h1>{title}</h1>
+				<p>{description}</p>
+				<div className="hyphen text-justify text-sm">
+					<p className="">{footnote}</p>
 				</div>
 			</div>
 		</section>
