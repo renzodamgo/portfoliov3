@@ -1,4 +1,4 @@
-export const AboutMe = () => {
+export const About = () => {
 	const { title, description, footnote } = aboutContent['en-US'];
 	return (
 		<section id="About me">
@@ -13,7 +13,7 @@ export const AboutMe = () => {
 	);
 };
 
-export default AboutMe;
+export default About;
 
 const aboutContent = {
 	'es-ES': {
