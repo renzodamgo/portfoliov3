@@ -8,7 +8,7 @@ export const Navbar = () => {
 		navLinks[locale != undefined ? (locale as keyof typeof locales) : 'en-US'];
 	return (
 		<nav className="container mx-auto max-w-[800px] px-10 py-6 font-serif">
-			<ul className="grid grid-cols-5 ch:flex ch:items-center ch:justify-center">
+			<ul className="grid grid-cols-5 gap-4 ch:flex ch:items-center ch:justify-center md:gap-0">
 				<li>
 					<Link href={'/blog'} locale={locale} legacyBehavior>
 						<a className={router.pathname == '/blog' ? 'active' : ''}>{blog}</a>
@@ -45,7 +45,6 @@ export const Navbar = () => {
 						</a>
 					</Link>
 				</li>
-				{/* <li></li> */}
 			</ul>
 		</nav>
 	);
