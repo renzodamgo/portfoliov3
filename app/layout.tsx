@@ -1,6 +1,5 @@
-'use client';
 import { Inter, Lora } from '@next/font/google';
-import { Analytics } from '@vercel/analytics/react';
+import { AnalyticsClient } from './components/analytics';
 import { Navbar } from './components/ui/navbar';
 import '/styles/globals.scss';
 
@@ -29,7 +28,7 @@ export default function RootLayout({
 				<Navbar />
 				<main className="container mx-auto mt-10 px-10">{children}</main>
 			</body>
-			<Analytics />
+			<AnalyticsClient />
 		</html>
 	);
 }
