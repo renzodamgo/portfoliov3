@@ -9,8 +9,7 @@ const Projects = () => {
 						<h1>DNT.pe</h1>
 					</Link>
 					<p>
-						Landing page for a Marketing Agency showcasing their services with
-						the focus of creativity and movement.
+						Landing page for a Marketing Agency showcasing their services with different and complex animations to express creativity.
 					</p>
 					<div className="flex gap-3">
 						<span>Next.js </span>
