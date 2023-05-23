@@ -9,7 +9,6 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@next/font": "^13.4.3",
 		"@vercel/analytics": "^1.0.1",
 		"mongodb": "^5.5.0",
 		"next": "^13.4.3",

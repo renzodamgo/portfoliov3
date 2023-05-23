@@ -1,4 +1,4 @@
-import { Inter, Lora } from '@next/font/google';
+import { Inter, Lora } from "next/font/google";
 import { AnalyticsClient } from './components/analytics';
 import { Navbar } from './components/ui/navbar';
 import '/styles/globals.scss';
